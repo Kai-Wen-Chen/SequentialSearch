@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SequentialSearch {
 	public static void main(String[] args){
-		String[] str = {"±i¤T","§õ¥|","¤ý¤­","»¯¤»"};
+		String[] str = {"Â±iÂ¤T","Â§ÃµÂ¥|","Â¤Ã½Â¤Â­","Â»Â¯Â¤Â»"};
 		Scanner sc = new Scanner(System.in);
 		String tmp = sc.nextLine();
 		
@@ -18,6 +18,6 @@ public class SequentialSearch {
 		System.out.println("data not found");
 		
 		//sequentialSearch is the way searching data from head to end sequentially
-		//though it's simple to design, but not efficient for large arrays
+		//though it's simple to design, not efficient for large arrays
 	}
 }
